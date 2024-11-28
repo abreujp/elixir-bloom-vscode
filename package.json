@@ -1,0 +1,24 @@
+{
+  "name": "elixir-bloom",
+  "displayName": "Elixir Bloom",
+  "description": "A dark theme optimized for Elixir development",
+  "version": "0.0.1",
+  "publisher": "abreujp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abreujp/elixir-bloom-vscode.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Elixir Bloom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/elixir-bloom-color-theme.json"
+      }
+    ]
+  }
+}

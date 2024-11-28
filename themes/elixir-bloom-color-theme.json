@@ -1,0 +1,85 @@
+{
+  "name": "Elixir Bloom",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1a1b26",
+    "editor.foreground": "#c0caf5",
+    "editor.lineHighlightBackground": "#292e42",
+    "editorCursor.foreground": "#c0caf5",
+    "editorLineNumber.foreground": "#565f89",
+    "editorLineNumber.activeForeground": "#737aa2",
+    "sideBar.background": "#16161e",
+    "sideBar.foreground": "#a9b1d6",
+    "activityBar.background": "#16161e",
+    "statusBar.background": "#16161e",
+    "titleBar.activeBackground": "#16161e"
+  },
+  "tokenColors": [
+    {
+      "name": "Elixir Module",
+      "scope": [
+        "entity.name.type.module.elixir"
+      ],
+      "settings": {
+        "foreground": "#9d7cd8"
+      }
+    },
+    {
+      "name": "Elixir Function",
+      "scope": [
+        "entity.name.function.elixir"
+      ],
+      "settings": {
+        "foreground": "#7aa2f7"
+      }
+    },
+    {
+      "name": "Elixir String",
+      "scope": [
+        "string.quoted.double.elixir",
+        "string.quoted.single.elixir"
+      ],
+      "settings": {
+        "foreground": "#9ece6a"
+      }
+    },
+    {
+      "name": "Elixir Atom",
+      "scope": [
+        "constant.other.symbol.elixir"
+      ],
+      "settings": {
+        "foreground": "#ff9e64"
+      }
+    },
+    {
+      "name": "Elixir Variable",
+      "scope": [
+        "variable.other.readwrite.elixir"
+      ],
+      "settings": {
+        "foreground": "#bb9af7"
+      }
+    },
+    {
+      "name": "Elixir Operators",
+      "scope": [
+        "keyword.operator.elixir"
+      ],
+      "settings": {
+        "foreground": "#89ddff"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": [
+        "comment.line",
+        "comment.block"
+      ],
+      "settings": {
+        "foreground": "#565f89",
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}

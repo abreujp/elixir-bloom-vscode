@@ -2,7 +2,7 @@
   "name": "elixir-bloom",
   "displayName": "Elixir Bloom",
   "description": "A dark theme optimized for Elixir development",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "abreujp",
   "repository": {
     "type": "git",

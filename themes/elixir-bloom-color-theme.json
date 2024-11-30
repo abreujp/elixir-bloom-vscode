@@ -2,17 +2,17 @@
   "name": "Elixir Bloom",
   "type": "dark",
   "colors": {
-    "editor.background": "#1a1b26",
-    "editor.foreground": "#c0caf5",
-    "editor.lineHighlightBackground": "#292e42",
-    "editorCursor.foreground": "#c0caf5",
-    "editorLineNumber.foreground": "#565f89",
-    "editorLineNumber.activeForeground": "#737aa2",
-    "sideBar.background": "#16161e",
-    "sideBar.foreground": "#a9b1d6",
-    "activityBar.background": "#16161e",
-    "statusBar.background": "#16161e",
-    "titleBar.activeBackground": "#16161e"
+    "editor.background": "#1A1626",
+    "editor.foreground": "#F5EBFF",
+    "editor.lineHighlightBackground": "#2A2433",
+    "editorCursor.foreground": "#F5EBFF",
+    "editorLineNumber.foreground": "#473357",
+    "editorLineNumber.activeForeground": "#957ED3",
+    "sideBar.background": "#1A1626",
+    "sideBar.foreground": "#ECC1FF",
+    "activityBar.background": "#1A1626",
+    "statusBar.background": "#1A1626",
+    "titleBar.activeBackground": "#1A1626"
   },
   "tokenColors": [
     {
@@ -21,7 +21,7 @@
         "entity.name.type.module.elixir"
       ],
       "settings": {
-        "foreground": "#9d7cd8"
+        "foreground": "#957ED3"
       }
     },
     {
@@ -30,7 +30,7 @@
         "entity.name.function.elixir"
       ],
       "settings": {
-        "foreground": "#7aa2f7"
+        "foreground": "#FF6B6B"
       }
     },
     {
@@ -40,7 +40,7 @@
         "string.quoted.single.elixir"
       ],
       "settings": {
-        "foreground": "#9ece6a"
+        "foreground": "#8ECDB4"
       }
     },
     {
@@ -49,7 +49,7 @@
         "constant.other.symbol.elixir"
       ],
       "settings": {
-        "foreground": "#ff9e64"
+        "foreground": "#FF9F6B"
       }
     },
     {
@@ -58,7 +58,7 @@
         "variable.other.readwrite.elixir"
       ],
       "settings": {
-        "foreground": "#bb9af7"
+        "foreground": "#ECC1FF"
       }
     },
     {
@@ -67,7 +67,7 @@
         "keyword.operator.elixir"
       ],
       "settings": {
-        "foreground": "#89ddff"
+        "foreground": "#FF9F6B"
       }
     },
     {
@@ -77,8 +77,36 @@
         "comment.block"
       ],
       "settings": {
-        "foreground": "#565f89",
+        "foreground": "#473357",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword.control",
+        "keyword.other"
+      ],
+      "settings": {
+        "foreground": "#FFD93D"
+      }
+    },
+    {
+      "name": "Function Calls",
+      "scope": [
+        "meta.function-call.elixir"
+      ],
+      "settings": {
+        "foreground": "#FF6B6B"
+      }
+    },
+    {
+      "name": "Module Attributes",
+      "scope": [
+        "variable.other.constant.elixir"
+      ],
+      "settings": {
+        "foreground": "#957ED3"
       }
     }
   ]
